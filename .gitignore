@@ -8,3 +8,7 @@ pony/pony/Debug
 *.opensdf
 *.vcxproj.user
 *.sdf
+*.user
+*.filters
+*vcxproj.filters
+*.suo
