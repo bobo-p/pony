@@ -1,2 +1,10 @@
 .exe
-pony/
+pony/Debug/
+pony/ipch/
+pony/pony.sdf
+pony/pony.sln
+*.vcxproj
+pony/pony/Debug
+*.opensdf
+*.vcxproj.user
+*.sdf
