@@ -1,4 +1,6 @@
 .exe
+Debug/
+Debug
 pony/Debug/
 pony/ipch/
 pony/pony.sdf
