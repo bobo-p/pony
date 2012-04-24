@@ -2,11 +2,15 @@
 #include<iostream>
 #include<SDL.h>
 #include <SDL_main.h>
+#include <SDL_ttf.h>
 #undef main
 using namespace std;
 int main()
 {
-	cout<<"Hello , I'm pony!"<<endl;
-	cin.get();
-	return 0;
+	if( SDL_Init( SDL_INIT_EVERYTHING ) == -1 )
+    {
+        return 1;    
+    }
+	
+	TTF_Init();
 }
